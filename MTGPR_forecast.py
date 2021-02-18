@@ -1,3 +1,7 @@
+### Multi-task Gaussian Process Regression with Complex Networks. Forecasting East Siberian and Laptev Sea ice Concentration
+### Author: William Gregory
+### Last updated: 18/02/2021
+
 import operator
 import random
 import glob
