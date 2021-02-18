@@ -4,4 +4,3 @@ This is follow-on work from the forecasting September sea ice extent using Compl
 This contains code used to generate preliminary results of spatial forecasts of sea ice concentration in the East Siberian and Laptev seas using multi-task Gaussian Process Regression.
 
 ![alt text](https://github.com/William-gregory/SeaIceConcentrationForecasting/blob/main/images/network_inputs.png)
-![alt text](https://github.com/William-gregory/SeaIceConcentrationForecasting/blob/main/images/forecast_vs_truth.png)
