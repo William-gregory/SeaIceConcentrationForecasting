@@ -17,5 +17,7 @@ In this example, I have generated a Complex Network based on monthly-mean August
 ![alt text](https://github.com/William-gregory/SeaIceConcentrationForecasting/blob/main/images/network_inputs.png)
 
 
-We can then create a covariance function to model the similarity between tasks (September sea ice concentration anomaly grid cells):
+We can then create a covariance function to model the similarity between tasks (September sea ice concentration anomaly grid cells). For one particular grid cell, this looks like:
+
+![alt text](https://github.com/William-gregory/SeaIceConcentrationForecasting/blob/main/images/task_covariance.png)
 
