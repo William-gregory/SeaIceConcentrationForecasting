@@ -12,7 +12,7 @@ Rakitsch, B., Lippert, C., Borgwardt, K. and Stegle, O., 2013, December. It is a
 
 
 </pre>
-In this example, I have generated a Complex Network based on monthly-mean August sea ice concentration data in the East Siberian and Laptev Seas:
+In this example, I have generated a Complex Network based on monthly-mean August sea ice concentration data in the East Siberian and Laptev Seas, which will be used as inputs to the forecast model, as per the method outlined in [Gregory et al., 2020](https://discovery.ucl.ac.uk/id/eprint/10091542/1/Gregory_wafd190107.pdf)
 
 ![alt text](https://github.com/William-gregory/SeaIceConcentrationForecasting/blob/main/images/network_inputs.png)
 
