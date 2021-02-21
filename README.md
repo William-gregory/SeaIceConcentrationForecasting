@@ -17,3 +17,6 @@ We can then create a covariance function to model the similarity between tasks (
 
 ![alt text](https://github.com/William-gregory/SeaIceConcentrationForecasting/blob/main/images/task_covariance.png)
 
+Before finally generating the spatial forecast of sea ice concentration (forecast left, truth right)
+
+![alt text](https://github.com/William-gregory/SeaIceConcentrationForecasting/blob/main/images/forecast_vs_truth.png)
