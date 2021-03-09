@@ -23,8 +23,7 @@ def CNs(month,areas,ymax):
     data[sector] = SIC[str(month)+'_dt_'+str(ymax)][sector]
     print('Creating network: 1979 - ',ymax)
     net = Network(dimX=dimX,dimY=dimY)
-    Network.cell_level(net, data, "25sqkm_ESSLap_79-"+str(ymax), datapath)
-    Network.tau(net, data, 0.01, "25sqkm_ESSLap_79-"+str(ymax), datapath)
+    Network.tau(net, data, 0.01)
     Network.area_level(net, data)
     Network.intra_links(net, data, area=areas)
     Net[str(month)+'_nodes_'+str(ymax)] = net.V
