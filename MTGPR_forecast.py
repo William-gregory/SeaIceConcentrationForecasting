@@ -26,7 +26,7 @@ def CNs(month,areas,ymax):
     CN.Network.get_threshold(network)
     CN.Network.get_nodes(network)
     CN.Network.get_links(network, area=areas)
-    Net[str(month)+'_nodes_'+str(ymax)] = net.V
+    Net[str(month)+'_nodes_'+str(ymax)] = net.nodes
     Net[str(month)+'_anoms_'+str(ymax)] = net.anomaly
     return Net
 
