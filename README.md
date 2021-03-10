@@ -3,6 +3,8 @@ This is follow-on work from forecasting September sea ice extent using Complex N
 
 This repository contains code used to generate spatial forecasts of sea ice concentration in the East Siberian and Laptev seas using multi-task Gaussian Process Regression, in a non-stationary inter-task covariance structure. This code is largely based on previous work by [Paciorek and Schervish, 2006](https://onlinelibrary.wiley.com/doi/pdf/10.1002/env.785) and [Rakitsch et al., 2013](https://proceedings.neurips.cc/paper/2013/file/59c33016884a62116be975a9bb8257e3-Paper.pdf).
 
+The code to generate Complex Networks of geospatial data, and other examples is in the repository [ComplexNetworks](https://github.com/William-gregory/ComplexNetworks/), and is imported directly into the forecast code MTGPR_forecast.py
+
 &nbsp;
 &nbsp;
 
