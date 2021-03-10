@@ -15,17 +15,17 @@ import scipy.optimize
 import pickle
 import datetime
 import itertools
-import CN as Network
+import ComplexNetworks as CN
 
 def CNs(month,areas,ymax):
     Net = {}
     data = np.zeros(SIC[str(month)+'_dt_'+str(ymax)].shape)*np.nan
     data[sector] = SIC[str(month)+'_dt_'+str(ymax)][sector]
     print('Creating network: 1979 - ',ymax)
-    net = Network(dimX=dimX,dimY=dimY)
-    Network.tau(net, data, 0.01)
-    Network.area_level(net, data)
-    Network.intra_links(net, data, area=areas)
+    network = CN.Network(data)
+    CN.Network.get_threshold(network)
+    CN.Network.get_nodes(network)
+    CN.Network.get_links(network, area=areas)
     Net[str(month)+'_nodes_'+str(ymax)] = net.V
     Net[str(month)+'_anoms_'+str(ymax)] = net.anomaly
     return Net
